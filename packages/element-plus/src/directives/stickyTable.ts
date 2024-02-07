@@ -1,4 +1,4 @@
-import type { Directive, Plugin } from 'vue'
+import type { Directive } from 'vue'
 
 const addStyleStr = (prefix: string, top: string) => {
   const style = document.createElement('style');
@@ -35,7 +35,7 @@ const addStyleStr = (prefix: string, top: string) => {
 
 const weakMap = new WeakMap()
 
-const stickyTable: Directive<HTMLElement, {
+export const StickyTable: Directive<HTMLElement, {
   enable?: boolean;
   top?: string
 }> = {
@@ -74,10 +74,4 @@ const stickyTable: Directive<HTMLElement, {
       weakMap.delete(el)
     }
   }
-}
-
-export const StickyTable: Plugin = {
-  install(app) {
-    app.directive('StickyElTable', stickyTable)
-  },
 }

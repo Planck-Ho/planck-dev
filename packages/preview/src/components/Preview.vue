@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { popconfirm } from 'element-plus-plugins'
+import { popconfirm } from '@planck/element-plus/utils'
 
 const showPop = async (e: MouseEvent) => {
   await popconfirm(e, {

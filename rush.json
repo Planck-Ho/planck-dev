@@ -440,8 +440,8 @@
     //   "tags": [ "tools" ]
     // }
     {
-      "packageName": "element-plus-plugins",
-      "projectFolder": "packages/element-plus-plugins"
+      "packageName": "@planck/element-plus",
+      "projectFolder": "packages/element-plus"
     },
     {
       "packageName": "preview",

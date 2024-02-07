@@ -7,7 +7,7 @@ import {
 } from 'vue'
 import { ElPopconfirm } from 'element-plus'
 
-type PopoverProps = {
+export type PopoverProps = {
   title: string
   confirmButtonText?: string
   cancelButtonText?: string
