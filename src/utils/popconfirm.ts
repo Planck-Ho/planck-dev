@@ -15,7 +15,7 @@ type PopoverProps = {
 }
 
 export function popconfirm(ev: MouseEvent, props: PopoverProps) {
-  return new Promise((resolve, reject) => {
+  return new Promise<void>((resolve, reject) => {
     const target = ev.target as HTMLElement
     const container = document.createElement('div')
     const { top, left, width, height } = target.getBoundingClientRect()
@@ -36,7 +36,7 @@ export function popconfirm(ev: MouseEvent, props: PopoverProps) {
               placement:  'top',
               ...props,
               onConfirm() {
-                resolve('ok')
+                resolve()
                 destroyApp()
               },
               onHide() {
