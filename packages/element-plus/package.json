@@ -1,6 +1,6 @@
 {
   "name": "@planckdev/element-plus",
-  "version": "0.0.0-rc.0",
+  "version": "0.0.0-rc.3",
   "type": "module",
   "files": [
     "dist/"
@@ -26,9 +26,10 @@
       "types": "./dist/utils/index.d.ts"
     }
   },
+  "homepage": "https://github.com/Planck-Ho/planck-dev/tree/main/packages/element-plus",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Planck-Ho/planck-dev/tree/main/packages/element-plus"
+    "url": "git+https://github.com/Planck-Ho/planck-dev.git"
   },
   "bugs": {
     "url": "https://github.com/Planck-Ho/planck-dev/issues"
