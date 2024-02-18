@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Planck-Ho/planck-dev.git"
+    "url": "git+https://github.com/Planck-Ho/planck-dev/tree/main/packages/element-plus"
   },
   "bugs": {
     "url": "https://github.com/Planck-Ho/planck-dev/issues"
