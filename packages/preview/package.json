@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.3.11",
-    "@planck/element-plus": "workspace:*",
+    "@planckdev/element-plus": "workspace:*",
     "element-plus": "^2.5.1"
   },
   "devDependencies": {

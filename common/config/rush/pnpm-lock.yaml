@@ -30,7 +30,7 @@ importers:
 
   ../../packages/preview:
     specifiers:
-      '@planck/element-plus': workspace:*
+      '@planckdev/element-plus': workspace:*
       '@types/node': ^20.11.16
       '@vitejs/plugin-vue': ^4.5.2
       element-plus: ^2.5.1
@@ -39,7 +39,7 @@ importers:
       vue: ^3.3.11
       vue-tsc: ^1.8.25
     dependencies:
-      '@planck/element-plus': link:../element-plus
+      '@planckdev/element-plus': link:../element-plus
       element-plus: 2.5.5_vue@3.4.15
       vue: 3.4.15_typescript@5.3.3
     devDependencies:

@@ -3,7 +3,7 @@ import './style.css'
 import App from './App.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-import { StickyTable } from '@planck/element-plus/directives'
+import { StickyTable } from '@planckdev/element-plus/directives'
 
 const app = createApp(App)
 

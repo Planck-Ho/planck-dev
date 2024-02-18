@@ -35,10 +35,21 @@ const addStyleStr = (prefix: string, top: string) => {
 
 const weakMap = new WeakMap()
 
-export const StickyTable: Directive<HTMLElement, {
+export interface StickyTableOptions {
+  /**
+   * 是否启用
+   * 
+   * 默认为true，启用
+   */
   enable?: boolean;
+  /**
+   * 粘性定位顶部距离
+   * 默认为0px，可设置为其他值，例如：20px、20vh
+   */
   top?: string
-}> = {
+}
+
+export const StickyTable: Directive<HTMLElement, StickyTableOptions> = {
   beforeUpdate(el, { value = {} }) {
     const config = {
       enable: true,
