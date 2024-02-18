@@ -14,11 +14,11 @@
 </template>
 
 <script setup lang="ts">
-import { popconfirm } from 'element-plus-plugins'
+import { popconfirm } from '@planckdev/element-plus/utils'
 
 const showPop = async (e: MouseEvent) => {
   await popconfirm(e, {
-    title: '是否删除'
+    title: '是否删除？'
   })
   console.log('确定---确定')
 }

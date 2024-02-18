@@ -1,0 +1,50 @@
+{
+  "name": "@planckdev/element-plus",
+  "version": "0.0.0-rc.0",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "element-plus",
+    "el-table",
+    "element-table",
+    "ts",
+    "typescript",
+    "vue"
+  ],
+  "scripts": {
+    "build": "vue-tsc && vite build"
+  },
+  "exports": {
+    "./directives": {
+      "import": "./dist/directives.js",
+      "types": "./dist/directives/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils.js",
+      "types": "./dist/utils/index.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Planck-Ho/planck-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Planck-Ho/planck-dev/issues"
+  },
+  "dependencies": {
+    "element-plus": "^2.5.1",
+    "vue": "^3.3.11",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25",
+    "vite-plugin-dts": "~3.7.2"
+  },
+  "license": "MIT"
+}
