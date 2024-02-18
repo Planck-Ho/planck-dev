@@ -4,7 +4,7 @@
 A library based on element-plus
 </p>
 
-**英文** | [中文](./README.zh-CN.md)
+**英文** | [中文](https://github.com/Planck-Ho/planck-dev/tree/main/packages/element-plus/README.zh-CN.md)
 
 # Install
 ```base

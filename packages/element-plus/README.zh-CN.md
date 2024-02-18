@@ -4,7 +4,7 @@
   一个基于element-plus开发的库
 </p>
 
-[英文](./README.md) | **中文**
+[英文](https://github.com/Planck-Ho/planck-dev/tree/main/packages/element-plus/README.md) | **中文**
 
 # 安装
 ```base
