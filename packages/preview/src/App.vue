@@ -1,11 +1,12 @@
 <template>
   <div>
+    <RouterView></RouterView>
+  </div>
+  <!-- <div>
     <Preview></Preview>
     <TablePreview></TablePreview>
-  </div>
+  </div> -->
 </template>
 
 <script setup lang="ts">
-import Preview from '@/components/Preview.vue'
-import TablePreview from '@/components/TablePreview.vue'
 </script>
