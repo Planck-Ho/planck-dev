@@ -8,6 +8,7 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: {
+        index: resolve(__dirname, 'src/index.ts'),
         directives:  resolve(__dirname, 'src/directives/index.ts'),
         utils:  resolve(__dirname, 'src/utils/index.ts')
       },
@@ -26,6 +27,6 @@ export default defineConfig({
     },
   },
   plugins: [dts({
-    exclude: 'src/index.ts'
+    tsconfigPath: resolve(__dirname, 'tsconfig.json'),
   })],
 })
