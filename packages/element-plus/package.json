@@ -1,6 +1,6 @@
 {
   "name": "@planckdev/element-plus",
-  "version": "0.0.0-rc.3",
+  "version": "0.0.0-rc.6",
   "type": "module",
   "files": [
     "dist/"
@@ -17,6 +17,10 @@
     "build": "vue-tsc && vite build"
   },
   "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
     "./directives": {
       "import": "./dist/directives.js",
       "types": "./dist/directives/index.d.ts"

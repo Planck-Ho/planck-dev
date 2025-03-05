@@ -11,7 +11,8 @@
   "dependencies": {
     "vue": "^3.3.11",
     "@planckdev/element-plus": "workspace:*",
-    "element-plus": "^2.5.1"
+    "element-plus": "^2.5.1",
+    "vue-router": "4.0.15"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",

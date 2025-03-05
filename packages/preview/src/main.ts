@@ -4,8 +4,13 @@ import App from './App.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import { StickyTable } from '@planckdev/element-plus/directives'
+import Router from './routes'
+
 
 const app = createApp(App)
 
 app.directive('StickyElTable', StickyTable)
-app.use(ElementPlus).mount('#app')
+app
+.use(ElementPlus)
+.use(Router)
+.mount('#app')
